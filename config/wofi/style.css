@@ -1,66 +1,65 @@
 /* ===== WOFI: Clean Dark Rounded Theme (Translucent) ===== */
 
 window {
-  margin: 0px;
-  border: 2px solid rgba(190, 190, 190, 0.55);
-  border-radius: 18px;
-  background-color: rgba(20, 20, 20, 0.70);
-  font-family: monospace;
-  font-size: 14px;
+    margin: 0px;
+    border: 2px solid rgba(190, 190, 190, 0.3);
+    border-radius: 18px;
+    background-color: rgba(20, 20, 20, 0.7);
+    font-family: JetbrainsMono;
+    font-size: 13px;
 }
 
 /* Main outer box */
 #outer-box {
-  margin: 14px;
-  padding: 12px;
-  border-radius: 14px;
-  background-color: rgba(20, 20, 20, 0.70);
+    margin: 14px;
+    padding: 12px;
+    border-radius: 14px;
+    background-color: rgba(20, 20, 20, 0.5);
 }
 
 /* Search entry */
 #input {
-  margin: 0px 0px 12px 0px;
-  padding: 10px 14px;
-  border-radius: 12px;
-  border: none;
-  background-color: rgba(60, 60, 60, 0.65);
-  color: #ffffff;
+    margin: 0px 0px 12px 0px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(60, 60, 60, 0.65);
+    color: #ffffff;
 }
 
 /* Results list background */
 #scroll {
-  margin: 0px;
-  border: none;
+    margin: 0px;
+    border: none;
 }
 
 #inner-box {
-  margin: 0px;
-  padding: 0px;
-  background-color: rgba(20, 20, 20, 0.70);
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(20, 20, 20, 0.8);
 }
 
 /* Each row */
 #entry {
-  padding: 10px 12px;
-  margin: 4px 0px;
-  border-radius: 10px;
-  background-color: transparent;
-  color: rgba(220, 220, 220, 0.92);
+    padding: 10px 12px;
+    margin: 4px 0px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgba(220, 220, 220, 0.92);
 }
 
 /* Selected row */
 #entry:selected {
-  background-color: rgba(200, 200, 200, 0.90);
-  color: #000000;
+    background-color: rgba(220, 184, 255, 0.82);
+    color: #000000;
 }
 
 /* Text inside rows */
 #text {
-  color: inherit;
+    color: inherit;
 }
 
 /* Icons */
 #img {
-  margin-right: 10px;
+    margin-right: 10px;
 }
-
