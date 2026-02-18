@@ -1,2 +1,2 @@
-# xin-monochrome-hyprland
-These are the dotfiles for my Monochrome black and white Hyprland setup.
+# Purplish Hyprland
+These are the dotfiles for my hyprland setup which is a modified version of Xeal's hyprland setup
