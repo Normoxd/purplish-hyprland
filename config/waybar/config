@@ -6,7 +6,7 @@
 
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock", "tray"],
-  "modules-right": ["memory", "network", "backlight", "pulseaudio", "battery"],
+  "modules-right": ["memory", "network", "pulseaudio", "battery"],
 
   "clock": {
     "format": "{:%I:%M %p}"
@@ -37,14 +37,6 @@
     "format-charging": "󰚥ㅤ{capacity}%",
     "tooltip": true,
     "path": "/sys/class/power_supply/BAT0"
-  },
-
-
-  "backlight": {
-     "format": "ㅤ{percent}%",
-     "min": 25,
-     "max": 100,
-     "device": "intel_backlight",
   },
 
   "tray": {
