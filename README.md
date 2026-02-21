@@ -13,6 +13,7 @@ These are the dotfiles of my hyprland setup
 - grim
 - slurp
 - mako
+- cliphist
 - Better Control - https://github.com/better-ecosystem/better-control
 - Pwropts - https://github.com/Normoxd/Pwropts
 - jetbrains-mono-fonts
